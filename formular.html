@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formular</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bilete</title>
+    <link rel="stylesheet" href="style-form.css">
 </head>
 <body>
 
@@ -13,37 +13,41 @@
 
         <nav class="navbar">
             <a href="index.html">Home</a>
-            <a href="">Program</a>
+            <a href="program.html">Program</a>
             <a href="formular.html">Bilete</a>
-            <a href="">Contact</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
     </header>
 
     <div>
-        <form action="" method="">
+
+        
+
+        <form class="formular" action="" method="">
+            <h2>Rezervără-ți bilet acum!</h2>
 
             <label for="nume">Nume:</label>
-            <input type="text" name="nume" id="nume" placeholder="Nume">
+            <input class="input" type="text" name="nume" id="nume" placeholder="Nume">
 
             <label for="prenume">Prenume:</label>
-            <input type="text" name="prenume" id="prenume" placeholder="Prenume">
+            <input class="input" type="text" name="prenume" id="prenume" placeholder="Prenume">
 
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="@gmail.com">
+            <input class="input" type="email" name="email" id="email" placeholder="@gmail.com">
 
             <label for="tel">Telefon:</label>
-            <input type="tel" name="tel" id="tel" placeholder="07xxxxxxxx" maxlength="10">
+            <input class="input" type="tel" name="tel" id="tel" placeholder="07xxxxxxxx" maxlength="10">
 
             <label for="number">Bilete:</label>
-            <input type="number" name="number" id="number" placeholder="0" min="0" max="50">
+            <input class="input" type="number" name="number" id="number" placeholder="0" min="0" max="50">
 
-            <label for="film">Care este filmul tau de groaza preferat?:</label>
-            <input type="text" name="film" id="film" placeholder="Film">
+            <label for="film">Care este filmul tau horror preferat?:</label>
+            <input class="input" type="text" name="film" id="film" placeholder="Film"><br>
 
 
 
-        <input type="submit" name="submit" id="submit">
+        <input type="submit" value="Trimite" name="submit" id="submit">
 
         </form>
     </div>

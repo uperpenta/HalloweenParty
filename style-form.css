@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Creepster', cursive;
+}
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    margin-bottom: 55px;
+    width: 100%;
+    padding: 15px 100px;
+    background: #190731;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position:relative;
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff6600;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.header::before{
+    content: "\1F383";
+    font-size: 50px;
+    color: #ff6600;
+    position: absolute;
+    top: -2px;
+    left: 15px;
+}
+
+
+  .formular{
+    background-color: #190731;    ;
+    border: 2px solid #ff6600;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 30% auto;
+    margin-top: 300px;
+    width: 500px;
+    text-align: center;
+  }
+  
+  .formular input[type="text"],
+  .formular input[type="email"],
+  .formular input[type="tel"],
+  .formular input[type="number"],
+  .formular select,
+  .formular textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .formular input[type="submit"] {
+    background-color: #ff6600;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .formular label {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ff6600;
+  }
+  
+  .formular h2 {
+    font-size: 24px;
+    color: #ff6600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .formular {
+    font-size: 14px;
+    color: #ff6600;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .formular input[type="submit"]:hover {
+    background-color: #ff3300;
+  }
+  
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/HalloweenParty/assets/5898725.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+
+  
+
+
