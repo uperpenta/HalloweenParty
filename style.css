@@ -7,15 +7,16 @@
 
 body{
     min-height: 100vh;
-    background: url('') no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: #000;
+    color: #fff;
 }
 
 .header{
     top: 0;
     left: 0;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     width: 100%;
     padding: 15px 100px;
     background: #190731;
@@ -81,4 +82,114 @@ body{
     top: 0px;
     left: 0px;
 }
+
+.title{
+
+    margin: 20px auto;
+    text-align: center;
+    font-size: 72px;
+    color:#190731;
+    text-shadow: 2px 2px 4px #190731;
+    background: #ff6600ac;
+    border:2px solid #190731;
+    border-radius: 10px;
+    width: 500px;
+
+}
+
+.top{
+    background-color: #190731bc;    ;
+    border: 2px solid #ff6600;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px auto;
+    margin-top: 300px;
+    width: 1000px;
+    text-align: center;
+  }
+  
+  .top p {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ff6600;
+  }
+  
+  .top h2 {
+    font-size: 26px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .top{
+    font-size: 26px;
+    color: #ff6600;
+    margin-top: 20px;
+    text-align: center;
+  }
+    
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/HalloweenParty/assets/5898725.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .middle{
+    background-color: #190731bc; 
+    border: 2px solid #ff6600;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin:20px auto;
+    width: 1000px;
+    text-align: center;
+    font-size: 20px;
+    color: #ff6600;
+    margin-top: 20px;
+  }
+
+  .middle p{
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+  }
+  .middle li{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ff6600;
+    font-size: 24px;
+  }
+
+.bottom{
+    text-align: center;
+}
+
+  .bottom button{
+    background-color: #ff6600;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .bottom button:hover{
+    background-color: #ff3300;;
+  }
+  
+
 
