@@ -65,6 +65,20 @@ body{
     left: 15px;
 }
 
-
-
+.time::before{
+    content: "\1F555";
+    font-size: 20px;
+    color: #ff6600;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.location::before{
+    content: "\1F4CD";
+    font-size: 20px;
+    color: #ff6600;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
 
