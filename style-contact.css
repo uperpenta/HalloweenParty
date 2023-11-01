@@ -116,21 +116,21 @@ body{
   .link{
     background-color: #190731;    ;
     border: 2px solid #ff6600;
-    border-radius: 10px;
+    border-radius: 47px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin: 30% auto;
-    margin-top: 300px;
-    width: 200px;
+    margin:auto;
+    width: 300px;
     text-align: center;
     font-size: 24px;
     color: #ff6600;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-decoration: none;
   }
 
-  .link img{
-    height: 60px;
-    align-items: center;
+  .link a{
+    color:#ff6600;
+    text-decoration: none;
   }
